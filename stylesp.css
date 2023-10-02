@@ -13,7 +13,7 @@ header {
 }
 header img{
     max-width: 150px; 
-    border-radius: 55px; /* Makes the image round */
+    border-radius: 55px; 
 
 }
 header h1 {
