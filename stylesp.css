@@ -1,0 +1,82 @@
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+header { 
+    text-align: center;
+    background-color: hsl(0, 33%, 96%);
+    color:rgb(20, 20, 20);
+    padding: 20px;
+    font-style: italic;
+}
+header img{
+    max-width: 150px; 
+    border-radius: 55px; /* Makes the image round */
+
+}
+header h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color:grey;
+    padding: 10px;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.about {
+    display: flex;
+    margin: 10px;
+    font-style:oblique;
+    background: hsl(0, 20%, 97%);
+    color: rgb(28, 29, 30);
+    margin-top: 0%;
+    padding: 10px;
+}
+.about h1{
+    font-family: sans-serif;
+}
+.projects{
+    display: flex;
+    margin: 10px;
+    font-style:oblique;
+    background: hsl(0, 20%, 97%);
+    color: rgb(28, 29, 30);
+    margin-top: 0%;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.projects h2{
+    font-family:  sans-serif;
+}
+.contact{
+    display: flex;
+    margin: 10px;
+    font-style:oblique;
+    background: hsl(0, 20%, 97%);
+    color: rgb(28, 29, 30);
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: hsl(0, 3%, 8%);
+    color: #eee2e2;
+    padding: 10px;
+}
+
